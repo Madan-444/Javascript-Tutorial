@@ -48,8 +48,16 @@
 
 // let persentage = (totalMarks/500)*100
 // console.log(`${persentage}%`)
-let ratings = [5, 4, 7];
-let newRattings = []
+// let ratings = [5, 4, 7];
+// let newRattings = []
+// for(let num in ratings) {
+//     console.log(ratings[num])
+// }
+
+let myArry = [32,23,2,32,23,23,23,12]
+for(let p in myArry) {
+    console.log(myArry[p])
+}
 
 // // Using for loop 
 // for(let i =0; i<ratings.length;i++) {
@@ -60,14 +68,18 @@ let newRattings = []
 // console.log(newRattings)
 
 // Using the forEach method 
-ratings.forEach((i)=> {
-    let j = i*2
-    newRattings.push(j) 
+// ratings.forEach((i)=> {
+//     let j = i*2
+//     newRattings.push(j) 
 
 
-})
+// })
 
-console.log(newRattings)
+// console.log(newRattings)
+
+// break and continue difference 
+// break => breaks when condition is meet and brings out of the loop
+// continue => skipes the line when the condition is met
 
 
 // for(let i=0;i<ratings.length;i++) {
